@@ -41,9 +41,9 @@ public class AssertClassProgram {
 	
 	@Test
 	public void tArray() {
-		int[] a= {10,15,8};
-		int b[]= {10,15,8};
-		assertArrayEquals(a,b);
+		int[] c= {10,15,9};
+		int b[]= {10,15,9};
+		assertArrayEquals(c,b);
 	}
 	
 
